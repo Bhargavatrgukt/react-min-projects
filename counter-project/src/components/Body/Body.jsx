@@ -1,5 +1,4 @@
 import { useState } from "react"
-import "../Button/Button"
 import Button from "../Button/Button"
 import styles from "./Body.module.css"
 
