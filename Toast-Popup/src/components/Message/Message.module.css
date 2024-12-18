@@ -1,0 +1,50 @@
+.toast {
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+  
+  /* Toast Type Colors */
+  .normal {
+    background-color:#ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .success {
+    background-color:rgb(221,255,221);
+  }
+  
+  .error {
+    background-color:rgba(255, 0, 0, 0.2);
+  }
+  
+  .warning {
+    background-color:#f2df7e;
+    color: #000;
+  }
+  
+  .info {
+    background-color:hsl(210, 92%, 45%);
+  }
+
+  .message{
+    display: flex
+  }
+
+  .closeButton{
+    background-color: transparent;
+    border:none;
+    padding: 5px;
+  }
+
+  .msg{
+    padding: 5px;
+  }
+
+ .symbol{
+    font-size:15px;
+    padding: 5px;
+ } 
