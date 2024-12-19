@@ -80,7 +80,10 @@ const removeToast = (id) => {
 
 useEffect(() => {
         // Clear all pending timeouts on component unmount
-        timers.current.forEach((id) => clearTimeout(id));
+        () => {
+          timers.current.forEach((id) => clearTimeout(id));
+          console.log("timers is not running")
+        };
 }, []);
 
 // useEffect(()=>{
